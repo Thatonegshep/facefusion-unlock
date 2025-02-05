@@ -8,3 +8,11 @@ opencv-python==4.10.0.84
 psutil==6.1.1
 tqdm==4.67.1
 scipy==1.14.1
+
+nvidia-cublas-cu12        
+nvidia-cuda-nvrtc-cu12
+nvidia-cuda-runtime-cu12
+nvidia-cudnn-cu12
+nvidia-cufft-cu12
+nvidia-curand-cu12
+nvidia-nvjitlink-cu12
