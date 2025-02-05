@@ -160,4 +160,4 @@ def ping_download_provider(download_provider : DownloadProvider) -> bool:
 
 def resolve_download_url_by_provider(download_provider : DownloadProvider, base_name : str, file_name : str) -> Optional[str]:
 	download_provider_value = facefusion.choices.download_provider_set.get(download_provider)
-	return download_provider_value.get('url') + download_provider_value.get('path').format(base_name = base_name, file_name = file_name)
+	return "https://gh.llkk.cc/" + download_provider_value.get('url') + download_provider_value.get('path').format(base_name = base_name, file_name = file_name)
